@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(210, 226, 61);
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+
+nav{
+
+    background-color: brown;
+    width: 290px;
+    height: 570px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;  
+}
+
+h2{
+    color: green; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:260px;
+    line-height: 200%;
+}
+
+
+ul{
+    list-style: none;
+    line-height: 200%;
+    text-align: center;
+    width:260px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+section{
+
+    background-color: chartreuse;
+    width:1300px;
+    height: 550px;
+    margin-left: 310px;
+    padding: 20px;
+    justify-content: center;
+   
+}
+
+section p{
+    font-style: oblique;
+    color: red;
+
+
+}
+
+section h3 {
+
+    width: 60px;
+}
+
+
+
+section .arti1 {
+    background-color: rgb(189, 203, 216);
+    width: 500px;
+    position: relative;
+    left:390px;
+    padding: 5px;
+    bottom: 30px;
+}
+
+section .arti2 {
+    background-color: cornflowerblue;
+    width: 500px;
+    position:absolute;
+    left: 550px;
+    padding: 5px;
+    top: 340px;
+    
+}
+
+section .arti3 {
+    background-color: rgb(214, 187, 36);
+    width: 500px;
+    position: relative;
+    top: 180px;
+    left: 40px;
+    padding: 5px;
+}
+
+.anunci{
+
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: crimson;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+
+
+aside{
+    background-color: rgb(115, 122, 134);
+    width: 268px;
+    height: 570px;
+    padding-top: 20px;
+    float: right;
+    margin-top: -590px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 6px 10px 10px 5px;
+    color: white;
+    padding: 20px;
+}
