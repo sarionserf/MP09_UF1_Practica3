@@ -4,17 +4,25 @@
 }
 
 header {
-    background-color: rgb(210, 226, 61);
+   
     text-align: center;
     padding: 50px;
     
+}
+
+body{
+    background-image: url(/img/823751.jpg) ;
+    background-size:100% ;
+    background-attachment:fixed ;
+
+
 }
 
 
 
 nav{
 
-    background-color: brown;
+    
     width: 290px;
     height: 570px;
     float: left;
@@ -48,7 +56,7 @@ nav a{
 
 section{
 
-    background-color: chartreuse;
+    
     width:1300px;
     height: 550px;
     margin-left: 310px;
@@ -60,19 +68,29 @@ section{
 section p{
     font-style: oblique;
     color: red;
+    width: 20em;
+    padding: 5px;
+  
+}
 
+section .arti2 p{
+
+    margin-left: 170px;
 
 }
 
 section h3 {
-
     width: 60px;
 }
 
+section article{
+
+    background-color: burlywood;
+    border: 1px solid black;
+}
 
 
 section .arti1 {
-    background-color: rgb(189, 203, 216);
     width: 500px;
     position: relative;
     left:390px;
@@ -80,23 +98,46 @@ section .arti1 {
     bottom: 30px;
 }
 
+.arti1 img{
+    float: right;
+}
+
 section .arti2 {
-    background-color: cornflowerblue;
+   
     width: 500px;
     position:absolute;
     left: 550px;
     padding: 5px;
     top: 340px;
-    
+}
+
+.arti2 img{
+    float: left;
 }
 
 section .arti3 {
-    background-color: rgb(214, 187, 36);
+   
     width: 500px;
     position: relative;
     top: 180px;
     left: 40px;
     padding: 5px;
+}
+.arti3 img{
+    float: right;
+}
+
+article img{
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(157, 41, 202);
+}
+
+article img:hover{
+    border: 1px solid;
+    box-shadow: 5px 10px;
+    transition: 2s;
 }
 
 .anunci{
@@ -109,20 +150,42 @@ section .arti3 {
     padding: 5px;
     text-align: center;
     border-radius: 5px;
-
 }
 
 
 
 aside{
-    background-color: rgb(115, 122, 134);
     width: 268px;
     height: 570px;
     padding-top: 20px;
     float: right;
     margin-top: -590px;
-    text-align: center;
+
 }
+
+.alogo{
+    background-image: url(/img/21599.jpg);
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px; 
+    width: 250px;
+}
+
+
+.atext{
+    opacity: 0;
+    height: 200px; 
+    width: 250px;
+    background-color: rgb(58, 58, 184);
+}
+
+.alogo:hover div.atext{
+    opacity: 1;
+    transition:  1s;
+}
+
 
 
 footer{
