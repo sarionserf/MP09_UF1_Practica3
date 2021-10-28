@@ -68,16 +68,10 @@ section{
 section p{
     font-style: oblique;
     color: red;
-    width: 20em;
-    padding: 5px;
-  
+
+     
 }
 
-section .arti2 p{
-
-    margin-left: 170px;
-
-}
 
 section h3 {
     width: 60px;
@@ -130,7 +124,7 @@ section .arti3 {
 article img{
     width: 150px;
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
     background-color: rgb(157, 41, 202);
 }
 
@@ -141,17 +135,46 @@ article img:hover{
 }
 
 .anunci{
-
     width: 250px;
-    position: absolute;
+    height: 105px;
+    position: fixed;
     top: 40px;
     left: 40px;
-    background-color: crimson;
+    background-color: burlywood;
     padding: 5px;
     text-align: center;
     border-radius: 5px;
+    overflow: hidden;
 }
 
+
+.icon{
+    width: 250px;
+    height: 105px;
+    background-image: url(/img/log.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.missganxo{
+    width: 250px;
+    position: absolute;
+    bottom: 1px;
+    display: none; 
+}
+
+.icon:hover {
+
+    height: 80px;
+    transition: ease-in;
+    display: block;
+}
+
+
+.icon:hover div.missganxo{
+   display: block;
+}
 
 
 aside{
